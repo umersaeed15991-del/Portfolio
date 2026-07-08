@@ -25,7 +25,7 @@ export function Certificates() {
   }, [selected]);
 
   return (
-    <section id="certificates" className="relative py-20 sm:py-28">
+    <section id="certificates" className="relative overflow-hidden py-20 sm:py-28">
       <div className="absolute right-0 top-1/4 h-72 w-72 rounded-full bg-accent-2/10 blur-[120px]" />
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading eyebrow="Achievements" title="Certificates & awards" />

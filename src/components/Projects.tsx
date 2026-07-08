@@ -71,7 +71,7 @@ function TiltCard({ children }: { children: ReactNode }) {
 
 export function Projects() {
   return (
-    <section id="projects" className="relative py-20 sm:py-28">
+    <section id="projects" className="relative overflow-hidden py-20 sm:py-28">
       <div className="absolute left-1/4 top-0 h-72 w-72 rounded-full bg-fuchsia-600/10 blur-[120px]" />
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading eyebrow="My Work" title="Featured projects" />
