@@ -39,7 +39,7 @@ export function SectionHeading({
   title: string;
 }) {
   return (
-    <Reveal className="mb-14 text-center">
+    <Reveal className="mb-10 text-center sm:mb-14">
       <span className="mb-3 inline-block rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 font-mono text-xs uppercase tracking-widest text-accent">
         {eyebrow}
       </span>

@@ -6,7 +6,7 @@ import { Reveal, SectionHeading } from "./Reveal";
 
 export function Skills() {
   return (
-    <section id="skills" className="relative py-28">
+    <section id="skills" className="relative py-20 sm:py-28">
       <div className="absolute right-0 top-1/3 h-72 w-72 rounded-full bg-accent-2/10 blur-[120px]" />
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading eyebrow="My Skills" title="Technologies I work with" />

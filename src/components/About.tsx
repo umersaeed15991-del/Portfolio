@@ -64,7 +64,7 @@ function CodeCard() {
 
 export function About() {
   return (
-    <section id="about" className="relative py-28">
+    <section id="about" className="relative py-20 sm:py-28">
       <div className="absolute left-0 top-1/4 h-72 w-72 rounded-full bg-accent/10 blur-[120px]" />
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading eyebrow="About Me" title="A little bit about me" />

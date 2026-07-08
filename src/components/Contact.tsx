@@ -7,7 +7,7 @@ import { Reveal, SectionHeading } from "./Reveal";
 
 export function Contact() {
   return (
-    <section id="contact" className="relative py-28">
+    <section id="contact" className="relative py-20 sm:py-28">
       <div className="absolute bottom-0 left-1/2 h-80 w-[600px] -translate-x-1/2 rounded-full bg-accent/10 blur-[140px]" />
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading eyebrow="Get In Touch" title="Let's work together" />

@@ -75,11 +75,11 @@ export function Hero() {
           initial={{ opacity: 0, y: 32 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="max-w-4xl text-5xl font-extrabold leading-[1.05] tracking-tight sm:text-7xl"
+          className="max-w-4xl break-words text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-6xl lg:text-7xl"
         >
           Hi, I&apos;m <span className="text-gradient">{profile.name}</span>
-          <br />
-          <span className="text-foreground/90">
+          {/* min-h taake typing ke waqt mobile par layout jump na ho */}
+          <span className="block min-h-[2.3em] text-foreground/90 sm:min-h-[1.2em]">
             {typed}
             <span className="animate-blink text-accent">|</span>
           </span>
@@ -98,11 +98,11 @@ export function Hero() {
           initial={{ opacity: 0, y: 32 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="mt-10 flex flex-wrap items-center gap-4"
+          className="mt-10 flex flex-wrap items-center gap-3 sm:gap-4"
         >
           <a
             href="#projects"
-            className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-accent to-accent-2 px-7 py-3.5 font-semibold text-white shadow-lg shadow-accent/25 transition-transform hover:scale-105"
+            className="group inline-flex flex-1 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-gradient-to-r from-accent to-accent-2 px-6 py-3.5 font-semibold text-white shadow-lg shadow-accent/25 transition-transform hover:scale-105 sm:flex-none sm:px-7"
           >
             View My Work
             <ArrowRight
@@ -112,7 +112,7 @@ export function Hero() {
           </a>
           <a
             href="#contact"
-            className="glass rounded-full px-7 py-3.5 font-semibold transition-colors hover:bg-white/10"
+            className="glass flex-1 whitespace-nowrap rounded-full px-6 py-3.5 text-center font-semibold transition-colors hover:bg-white/10 sm:flex-none sm:px-7"
           >
             Contact Me
           </a>
