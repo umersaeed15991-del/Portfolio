@@ -66,7 +66,7 @@ export function Experience() {
                   <span className="absolute -left-[5px] mt-7 h-2.5 w-2.5 rounded-full bg-gradient-to-r from-accent to-accent-2 ring-4 ring-background" />
                   <TimelineCard
                     title={exp.role}
-                    subtitle={exp.company}
+                    subtitle={exp.company ?? ""}
                     period={exp.period}
                     description={exp.description}
                     tags={exp.tags}
