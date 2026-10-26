@@ -8,10 +8,10 @@ export const profile = {
   firstName: "Umer",
   // Hero mein type hone wale roles (typing animation)
   roles: [
-    "Full-Stack Developer",
-    "Next.js Specialist",
-    "UI/UX Enthusiast",
-    "Problem Solver",
+    "Full-Stack App & Web Developer",
+    "Dart Programmer",
+    "Web Developer",
+    "UI/UX Designer",
   ],
   tagline:
     "I craft fast, beautiful and scalable web experiences — turning ideas into products people love to use.",
@@ -29,7 +29,7 @@ export const profile = {
 
   about: {
     intro:
-      "I'm a passionate full-stack developer with a strong focus on building modern web applications. I love working with React, Next.js and Node.js, and I care deeply about clean code, great design and smooth user experiences.",
+      "I'm a passionate full-stack developer with a strong focus on building modern App and Web applications. I love working with Flutter,Dart, Next.js and Node.js, and I care deeply about clean code, great design and smooth user experiences.",
     highlights: [
       "Building end-to-end products from design to deployment",
       "Strong eye for detail, motion and micro-interactions",
@@ -48,8 +48,8 @@ export const profile = {
     {
       category: "Frontend",
       items: [
-        { name: "React / Next.js", level: 92 },
-        { name: "TypeScript", level: 88 },
+        { name: "Flutter dart", level: 92 },
+        { name: "Next.js", level: 88 },
         { name: "Tailwind CSS", level: 95 },
         { name: "HTML / CSS", level: 90 },
       ],
@@ -76,9 +76,9 @@ export const profile = {
 
   // Tech strip (hero ke neeche scroll hone wali marquee)
   techStack: [
+    "Flutter",
+    "Dart",
     "Next.js",
-    "React",
-    "TypeScript",
     "Node.js",
     "Tailwind CSS",
     "MongoDB",
@@ -92,7 +92,15 @@ export const profile = {
 
   experience: [
     {
-      role: "Full-Stack Developer",
+      role: "Full-Stack App Developer",
+      Company: "Final Year Project",
+      period: "sep 2025 — July 2026",
+      description:
+        "Developed a Flutter-based mobile application to help citizens report and manage civic issues in Faisalabad.Integrated AI to analyze complaints, categorize issues, and prioritize them based on urgency.Implemented voice-to-text functionality for submitting complaints in Urdu and English.Enabled image attachments to provide supporting evidence for reported issues.Developed a Node.js backend with MongoDB for complaint management and data storage.Designed complaint tracking features to improve transparency and communication between citizens and relevant departments.",
+      tags: ["Flutter/Dart", "Node.js", "MongoDB"],
+    },
+    {
+      role: "Full-Stack WebDeveloper",
       company: "arham.intel.ai",
       period: "2025 — Present",
       description:
@@ -136,6 +144,14 @@ export const profile = {
   // uska path likh dein, e.g. image: "/projects/medcomfy.png"
   // Agar image khali ("") ho to card par gradient placeholder dikhta hai.
   projects: [
+     {
+      title: "CityFix",
+      description:
+        "CityFix is a full-stack AI-powered mobile application developed to streamline civic issue reporting and grievance management. It features AI-based complaint categorization, real-time status tracking, emergency SOS services, and an intelligent chatbot for user assistance. The application was built using Flutter, Node.js, Express.js, and MongoDB.",
+      tags: ["Flutter", "Node.js", "MongoDB"],
+      link: "",
+      image: "/projects/cityfix.png",
+    },
     {
       title: "MedComfy",
       description:
@@ -152,19 +168,24 @@ export const profile = {
       link: "https://www.vizocom.com/",
       image: "/projects/vizocom.png",
     },
-    {
-      title: "CityFix",
-      description:
-        "CityFix is a full-stack AI-powered mobile application developed to streamline civic issue reporting and grievance management. It features AI-based complaint categorization, real-time status tracking, emergency SOS services, and an intelligent chatbot for user assistance. The application was built using Flutter, Node.js, Express.js, and MongoDB.",
-      tags: ["Flutter", "Node.js", "MongoDB"],
-      link: "",
-      image: "/projects/cityfix.png",
-    },
+   
   ],
 
   // Certificates: pics public/certificates/ folder mein hain.
   // Title/issuer/year apne hisaab se edit kar lein.
   certificates: [
+    {
+      title: "Degree in Software Engineering",
+      issuer: "National Textile University FSD",
+      year: "2026",
+      image: "/certificates/degree_scanned.jpeg",
+    },
+    {
+      title: "Transcript of Records",
+      issuer: "National Textile University FSD",
+      year: "2026",
+      image: "/certificates/transcript_scanned.jpeg",
+    },
     {
       title: "Web Development (Full-Stack)",
       issuer: "NAVTTC",

@@ -31,8 +31,8 @@ function CodeCard() {
             {"  "}location: <span className="text-emerald-300">&quot;{profile.location}&quot;</span>,
             {"\n"}
             {"  "}stack: <span className="text-yellow-300">[</span>
+            <span className="text-emerald-300">&quot;Flutter/dart&quot;</span>,{" "}
             <span className="text-emerald-300">&quot;Next.js&quot;</span>,{" "}
-            <span className="text-emerald-300">&quot;React&quot;</span>,{" "}
             <span className="text-emerald-300">&quot;Node.js&quot;</span>
             <span className="text-yellow-300">]</span>,
             {"\n"}
