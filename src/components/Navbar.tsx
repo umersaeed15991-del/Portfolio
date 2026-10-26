@@ -89,7 +89,7 @@ export function Navbar() {
           <div className="flex items-center gap-2">
             <a
               href={profile.resumeUrl}
-              download="Umer-Saeed-CV.pdf"
+              download="CV_Umer.pdf"
               className="hidden items-center gap-2 rounded-xl bg-gradient-to-r from-accent to-accent-2 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-accent/25 transition-transform hover:scale-105 lg:inline-flex"
             >
               <Download size={15} /> Resume
@@ -131,7 +131,7 @@ export function Navbar() {
             </ul>
             <a
               href={profile.resumeUrl}
-              download="Umer-Saeed-CV.pdf"
+              download="CV_Umer.pdf"
               className="mt-2 flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-accent to-accent-2 px-5 py-3 text-sm font-semibold text-white"
             >
               <Download size={15} /> Resume
