@@ -25,12 +25,12 @@ export function Certificates() {
   }, [selected]);
 
   return (
-    <section id="certificates" className="relative overflow-hidden py-20 sm:py-28">
+    <section id="certificates" className="relative overflow-hidden py-16 sm:py-28">
       <div className="absolute right-0 top-1/4 h-72 w-72 rounded-full bg-accent-2/10 blur-[120px]" />
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading eyebrow="Achievements" title="Certificates & awards" />
 
-        <div className="mx-auto grid max-w-4xl gap-7 sm:grid-cols-2">
+        <div className="mx-auto grid max-w-4xl gap-5 sm:gap-7 md:grid-cols-2">
           {profile.certificates.map((cert, i) => (
             <Reveal key={cert.title} delay={i * 0.1}>
               <button
@@ -53,15 +53,15 @@ export function Certificates() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-4 p-5">
+                <div className="flex items-center gap-4 p-4 sm:p-5">
                   <span className="shrink-0 rounded-2xl bg-gradient-to-br from-accent/20 to-accent-2/20 p-3 text-accent">
-                    <Award size={22} />
+                    <Award size={20} className="sm:size-[22px]" />
                   </span>
                   <div className="min-w-0">
-                    <h3 className="truncate font-bold transition-colors group-hover:text-accent-2">
+                    <h3 className="truncate text-sm font-bold transition-colors group-hover:text-accent-2 sm:text-base">
                       {cert.title}
                     </h3>
-                    <p className="text-sm text-muted">
+                    <p className="text-xs text-muted sm:text-sm">
                       {cert.issuer} · {cert.year}
                     </p>
                   </div>

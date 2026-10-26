@@ -18,7 +18,7 @@ export const profile = {
   location: "Pakistan",
   email: "umersaeed15991@gmail.com",
   phone: "+92 300 7323288",
-  resumeUrl: "/CV.pdf", // public/ folder mein rakhi hui CV
+  resumeUrl: "/CV_Umer.pdf", // public/ folder mein rakhi hui CV
   avatar: "/umer-pic.jpeg", // public/ folder mein apni photo rakh dein (optional)
 
   socials: {

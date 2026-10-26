@@ -39,11 +39,13 @@ export function SectionHeading({
   title: string;
 }) {
   return (
-    <Reveal className="mb-10 text-center sm:mb-14">
-      <span className="mb-3 inline-block rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 font-mono text-xs uppercase tracking-widest text-accent">
+    <Reveal className="mb-8 text-center sm:mb-14">
+      <span className="mb-3 inline-block rounded-full border border-accent/30 bg-accent/10 px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.18em] text-accent sm:px-4 sm:text-xs">
         {eyebrow}
       </span>
-      <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">{title}</h2>
+      <h2 className="mx-auto max-w-[15ch] text-4xl font-bold leading-[0.95] tracking-tight sm:max-w-none sm:text-5xl">
+        {title}
+      </h2>
     </Reveal>
   );
 }
